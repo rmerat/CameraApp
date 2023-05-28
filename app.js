@@ -23,3 +23,7 @@ cameraTrigger.onclick = function() {
     cameraOutput.classList.add("taken");
 };// Start the video stream when the window loads
 window.addEventListener("load", cameraStart, false);
+//new
+document.getElementById("continueButton").addEventListener("click", function() {
+    window.location.href = "https://docs.google.com/forms/d/1i8Mi0xTzVh8ZNQOUpU9lWE74RicAQGel8DuGq9Gjckc/edit";
+});
